@@ -2,7 +2,7 @@ import csv
 import time
 import tkinter
 import os
-os.chdir(r"c:\Users\sio2kor\Documents\Birthday")
+# os.chdir(r"c:\Users\sio2kor\Documents\Birthday")
 root = tkinter.Tk()
 root.title("Birthday Reminder")
 root.geometry("550x200")
@@ -19,4 +19,3 @@ if not count:
     dob = tkinter.Label(text="No Birthday today")
     dob.pack()
 root.mainloop()
-
